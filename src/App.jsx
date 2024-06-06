@@ -8,7 +8,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="wrapper">
-      <div className="descr-section" id="main">
+      <section className="descr-section" id="main">
         <Header />
         <div className="fs-overlay">
           <div className="container">
@@ -25,7 +25,7 @@ const App = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <About />
       <Offer />
       <Footer />

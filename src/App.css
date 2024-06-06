@@ -24,7 +24,7 @@ body {
 }
 
 /* header  */
-.header {
+header {
   background-color: #4e4e4e;
   width: 100%;
 }
@@ -41,7 +41,7 @@ body {
 }
 
 /* footer */
-.footer {
+footer {
   background-color: #4e4e4e;
   width: 100%;
 }

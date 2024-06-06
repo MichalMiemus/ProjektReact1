@@ -3,7 +3,7 @@ import "../App.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer>
       <div className="container">
         <div className="footer-menu">
           Nazwa firmy - wszelkie prawa zastrzeżone, 2024

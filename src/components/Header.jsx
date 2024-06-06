@@ -3,7 +3,7 @@ import "../App.css";
 
 const Header = () => {
   return (
-    <header className="header">
+    <header>
       <div className="container">
         <div className="header-menu">
           moja firma
