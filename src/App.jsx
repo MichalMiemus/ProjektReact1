@@ -1,35 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import Header from "./components/Header";
+import About from "./components/About";
+import Offer from "./components/Offer";
+import Footer from "./components/Footer";
+import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="wrapper">
+      <div className="descr-section" id="main">
+        <Header />
+        <div className="fs-overlay">
+          <div className="container">
+            <div className="site-descr">
+              <h1 className="descr-main">
+                Nasza firma oferuje najwyższej jakości produkty.
+              </h1>
+              <div className="descr-secondary">
+                Nie wierz nam na słowo - sprawdź
+              </div>
+              <a href="#offer" className="button">
+                oferta
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+      <About />
+      <Offer />
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+export default App;
