@@ -64,7 +64,7 @@ body {
 /* first section */
 .descr-section {
   height: 100vh;
-  background-image: url("./background1920x1080.jpg");
+  background-image: url("/background1920x1080.jpg");
   background-size: cover;
   background-position: center;
 }
