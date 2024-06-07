@@ -175,7 +175,7 @@ footer .links li a {
   flex-direction: column;
   margin-bottom: 20px;
   align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 /* container for employee photo */
@@ -200,6 +200,7 @@ footer .links li a {
   order: 1;
   flex: 0;
   width: 100%;
+  margin-right: 50px;
 }
 .name {
   color: #152d41;
@@ -288,6 +289,9 @@ footer .links li a {
   .footer-menu {
     font-size: 18px;
   }
+  .info-container {
+    width: 57vw;
+  }
   .grid-container {
     grid-template-columns: repeat(2, 200px);
     grid-template-rows: repeat(3, 200px);
@@ -366,6 +370,7 @@ footer .links li a {
   .info-container {
     flex: 0;
     width: 100%;
+    margin-right: 0;
   }
   .name {
     margin-left: 40px;
