@@ -9,6 +9,8 @@ const offers = [
   { title: "Usługa 4", isNew: false },
   { title: "Usługa 5", isNew: false },
   { title: "Usługa 6", isNew: true },
+  { title: "Usługa 7", isNew: false },
+  { title: "Usługa 8", isNew: true },
 ];
 
 const Offer = () => {
