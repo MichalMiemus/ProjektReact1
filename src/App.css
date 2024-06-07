@@ -450,10 +450,3 @@ footer .links li a {
     transform: scale(1.05);
   }
 }
-
-/* desktop large screen */
-@media only screen and (min-width: 1300px) {
-  .site-descr {
-    width: 33vw;
-  }
-}
