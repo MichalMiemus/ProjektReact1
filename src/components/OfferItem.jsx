@@ -7,7 +7,7 @@ const OfferItem = ({ title, isNew }) => {
       {isNew && <span className="corner-circle"></span>}
       <div className="service-title-container">
         <div>{title}</div>
-        {isNew && <div>(nowość)</div>}
+        {isNew && <div className="service-title-new">(nowość)</div>}
       </div>
     </div>
   );
