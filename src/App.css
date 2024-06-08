@@ -229,7 +229,7 @@ footer .links li a {
   font-size: 24px;
   font-weight: 700;
   text-align: center;
-  padding: 15px;
+  padding: 15px 0;
 }
 
 /* grid container for boxes with offers */
@@ -403,7 +403,7 @@ footer .links li a {
     font-size: 36px;
     font-weight: 700;
     text-align: left;
-    padding: 0;
+    padding: 5px 0;
   }
 
   .grid-item {
