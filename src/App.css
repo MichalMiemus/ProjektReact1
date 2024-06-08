@@ -187,6 +187,7 @@ footer .links li a {
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
 }
 .employee-photo {
   width: 100%;
@@ -201,6 +202,7 @@ footer .links li a {
   flex: 0;
   width: 100%;
   margin-right: 50px;
+  margin-bottom: 30px;
 }
 .name {
   color: #152d41;
@@ -365,6 +367,7 @@ footer .links li a {
   /* container for employee photo */
   .photo-container {
     margin-right: 20px;
+    margin-bottom: 0;
   }
   .employee-photo {
     margin-right: 20px;
@@ -375,6 +378,7 @@ footer .links li a {
     flex: 0;
     width: 100%;
     margin-right: 0;
+    margin-bottom: 0px;
   }
   .name {
     margin-left: 40px;
