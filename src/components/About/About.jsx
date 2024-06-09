@@ -1,6 +1,5 @@
 import Employee from "../Employee/Employee";
 import employees from "../../data/employees";
-import "../../App.css";
 import "./About.css";
 
 const About = () => {
