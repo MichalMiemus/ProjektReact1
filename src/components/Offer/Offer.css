@@ -1,0 +1,51 @@
+/* third section */
+.offer-section {
+  width: 100%;
+  height: auto;
+  background-color: #405d78;
+}
+
+.descr-offer {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* grid container for boxes with offers */
+.grid-container {
+  margin-right: 50px;
+  display: grid;
+  grid-template-columns: repeat(1, 200px);
+  grid-template-rows: repeat(n, 200px);
+  gap: 40px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+/* tablet */
+@media only screen and (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 40px;
+    margin-left: 40px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1000px) {
+  .descr-offer {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    padding: 5px 0;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(2, 200px);
+    gap: 60px;
+  }
+}

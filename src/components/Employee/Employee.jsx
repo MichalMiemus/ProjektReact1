@@ -1,5 +1,4 @@
-import React from "react";
-import "../App.css";
+import "./Employee.css";
 
 const Employee = ({ name, position, description, photo }) => {
   return (

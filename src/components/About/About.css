@@ -1,0 +1,30 @@
+/* second section */
+.about-section {
+  width: 100%;
+  height: auto;
+  background-color: #f1f1f1;
+  justify-content: center;
+}
+
+.descr-about {
+  color: #152d41;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* container for list of employees */
+.employee-list {
+  list-style-type: none;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+/* desktop */
+@media only screen and (min-width: 1000px) {
+  .descr-about {
+    text-align: left;
+  }
+}

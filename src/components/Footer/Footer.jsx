@@ -1,5 +1,6 @@
-import React from "react";
-import "../App.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -11,12 +12,12 @@ const Footer = () => {
             <ul className="links">
               <li>
                 <a href="#">
-                  <i className="fa-brands fa-instagram fa-2xl"></i>
+                  <FontAwesomeIcon icon={faInstagram} size="2xl" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <i className="fa-brands fa-square-facebook fa-2xl"></i>
+                  <FontAwesomeIcon icon={faFacebook} size="2xl" />
                 </a>
               </li>
             </ul>

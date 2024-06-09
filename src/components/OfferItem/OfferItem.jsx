@@ -1,5 +1,4 @@
-import React from "react";
-import "../App.css";
+import "./OfferItem.css";
 
 const OfferItem = ({ title, isNew }) => {
   return (

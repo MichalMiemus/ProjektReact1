@@ -1,0 +1,90 @@
+/* shadow overlay in first section */
+.fs-overlay {
+  top: 50;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 50px);
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border: none;
+}
+
+/* first section */
+.descr-section {
+  height: 100vh;
+  background-image: url("../img/background1920x1080.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* container for description in first section */
+.site-descr {
+  height: 215px;
+  width: 100%;
+  color: white;
+  text-align: left;
+  border: none;
+}
+/* main description */
+.descr-main {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-left: 15px;
+}
+.descr-secondary {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-left: 15px;
+}
+
+/* container styled as button in first section */
+.button {
+  width: 164px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: transparent;
+  color: white;
+  border: 3px solid white;
+  transition: background-color 1s, color 1s;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+/* tablet */
+@media only screen and (min-width: 600px) {
+  .site-descr {
+    width: 66vw;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1000px) {
+  .site-descr {
+    width: 50vw;
+    margin-right: 100vw;
+    text-align: left;
+  }
+
+  /* main description */
+  .descr-main {
+    margin-left: 0;
+  }
+  .descr-secondary {
+    margin-left: 0;
+  }
+  /* container styled as button in first section */
+  .button {
+    margin-left: 0;
+  }
+  .button:hover {
+    background-color: white;
+    color: black;
+  }
+}
